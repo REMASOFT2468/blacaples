@@ -69,7 +69,7 @@ const Header = () => {
       </button>
       <div className="flex text-xs gap-3 p-3 mt-20 md:justify-between md:p-10 md:mt-5">
         <h6>BLACAPLE</h6>
-        <h6>A CONTENT STUDIO BASED IN PORT HARCOURT.</h6>
+        <h6>A CONTENT STUDIO BASED IN PH.</h6>
         <h6>@2025</h6>
       </div>
     </div>
