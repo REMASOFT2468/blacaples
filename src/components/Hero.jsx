@@ -7,7 +7,7 @@ import img7 from "../assets/image/img7.png";
 const Hero = () => {
   return (
     <div>
-      <div className="text-4xl p-3 -mt-30 md:p-10 md:ml-80 md:w-200 md:text-6xl md:mt-20">
+      <div className="text-4xl p-3  md:p-10 md:ml-80 md:w-200 md:text-6xl md:mt-20">
         <h1 className="relative">
           <span className="bg-gradient-to-b from-transparent to-red-900">
             We craft
@@ -48,7 +48,6 @@ const Hero = () => {
               <h3 className="text-xl font-semibold">Viral content</h3>
             </div>
 
-           
             <div>
               <img
                 src={img5}
@@ -59,7 +58,6 @@ const Hero = () => {
               <h3 className="text-xl font-semibold">Viral content</h3>
             </div>
 
-            
             <div>
               <img
                 src={img4}
