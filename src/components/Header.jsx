@@ -67,7 +67,7 @@ const Header = () => {
       <button className="w-50 h-9 bg-white text-red-700 ml-22 mt-10 justify-center md:ml-150 ">
         Whatsapp us now
       </button>
-      <div className="flex text-xs gap-12 p-5 mt-10 md:justify-between md:p-10 md:mt-5">
+      <div className="flex text-xs gap-12 p-5 mt-8 md:justify-between md:p-10 md:mt-5">
         <h6>BLACAPLE</h6>
         <h6>A CONTENT STUDIO BASED IN PH.</h6>
         <h6>@2025</h6>
