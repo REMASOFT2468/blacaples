@@ -2,13 +2,13 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Header from "./components/header";
-import Hero from "./components/Hero";
-import Hero1 from "./components/Hero1";
-import Hero2 from "./components/Hero2";
-import Hero3 from "./components/Hero3";
-import Hero4 from "./components/Hero4";
-import Footer from "./components/Footer";
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import Hero1 from "./components/Hero1.jsx";
+import Hero2 from "./components/Hero2.jsx";
+import Hero3 from "./components/Hero3.jsx";
+import Hero4 from "./components/Hero4.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
