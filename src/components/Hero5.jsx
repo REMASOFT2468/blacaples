@@ -10,7 +10,7 @@ const Hero5 = () => {
         muted
         loop
         playsInline
-        className="w-full md:w-1/2 rounded-[40px] object-cover max-h-[800px] p-5 md:max-h-[800px]"
+        className="w-full md:w-1/2  rounded-[40px] object-cover max-h-[800px] p-5 md:max-h-[800px]"
       ></video>
 
       <div className="text-center md:text-left px-4 md:px-0 md:w-1/2">

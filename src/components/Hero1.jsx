@@ -5,7 +5,7 @@ import img8 from "../assets/image/img8.png";
 const Hero1 = () => {
   return (
     <div>
-      <section class="bg-black w-100 text-white px-6 md:px-16 md:w-250 py-20 md:ml-70">
+      <section class="bg-black w-90 text-white px-6 md:px-16 md:w-250 py-20 md:ml-70">
         <p class="text-red-500 mb-6">// Who we are</p>
 
         <h1 class="text-4xl md:text-5xl font-light leading-tight max-w-3xl">
