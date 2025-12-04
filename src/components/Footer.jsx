@@ -7,7 +7,7 @@ import img25 from "../assets/image/img25.png";
 const Footer = () => {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center px-6 py-10">
-      <div className="max-w-md w-full">
+      <div className="max-w-md w-90">
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-3xl font-semibold leading-snug">
