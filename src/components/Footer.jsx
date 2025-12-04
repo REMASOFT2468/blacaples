@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="mt-12 text-center text-sm space-y-3">
           <div className="flex justify-center items-center gap-3">
             <span>Blacaples.com</span>
-            <span className="text-red-600 text-xl">|</span>
+            <span className="text-red-800 text-xl">|</span>
             <span>hello@blacaples.com</span>
           </div>
 
