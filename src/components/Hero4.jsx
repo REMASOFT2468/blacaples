@@ -48,7 +48,7 @@ const Hero4 = () => {
         />
       </div>
       <div className="px-4 md:px-10">
-        <p className="font-bold w-100 -ml-50 text-xl leading-relaxed md:ml-10 md:mt-10 md:w-210 md:text-4xl md:max-w-4xl">
+        <p className="font-bold w-100 -ml-50 text-1xl leading-relaxed md:ml-10 md:mt-10 md:w-210 md:text-4xl md:max-w-4xl">
           We help companies, start-ups, entrepreneurs and anyone who wants their
           brand to be remembered, not just seen on the internet.
         </p>
