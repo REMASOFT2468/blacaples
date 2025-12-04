@@ -72,7 +72,7 @@ const Hero2 = () => {
         <img
           src={img10}
           alt="right"
-          className="absolute right-0 left-1/2  bottom-8 w-[200px] md:w-[550px] md:mt-60 rounded-sm object-cover shadow-lg"
+          className="absolute right-0 left-1/2  bottom-8 w-[180px] md:w-[550px] md:mt-60 rounded-sm object-cover shadow-lg"
         />
 
         <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[340px] md:w-[520px]">
