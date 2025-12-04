@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
 
           <div className="pt-3 text-gray-400">
-            Blacaples © 2025 Studio Limited — All Rights Reserved
+            Blacaples © 2025 Studio Limited - All Rights Reserved
           </div>
         </div>
       </div>
