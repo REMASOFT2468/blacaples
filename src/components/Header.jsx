@@ -93,7 +93,7 @@ const Header = () => {
       </div>
 
       <div
-        className="flex text-xs gap-5 p-10 mt-15 md:justify-between md:p-10 md:mt-10"
+        className="flex text-xs gap-5 p-5 ml-8 mt-15 md:justify-between md:p-10 md:mt-10"
         data-aos="fade-up"
         data-aos-delay="800"
       >
