@@ -27,7 +27,7 @@ const Hero = () => {
 
       <div>
         <section className="bg-black text-white -mt-20 px-5 py-16 md:px-10">
-          <div className="grid grid-cols-1 gap-20 md:grid-cols-4">
+          <div className="grid grid-cols-1 gap-12 md:grid-cols-4">
             <div>
               <img
                 src={img7}
