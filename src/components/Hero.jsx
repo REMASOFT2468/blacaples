@@ -6,8 +6,8 @@ import img7 from "../assets/image/img7.png";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="text-4xl p-3  md:p-10 md:ml-80 md:w-200 md:text-6xl md:mt-20">
+    <div className="mt-5">
+      <div className="text-4xl p-6  md:p-10 md:ml-80 md:w-200 md:text-6xl md:mt-20">
         <h1 className="relative">
           <span className="bg-gradient-to-b from-transparent to-red-900">
             We craft
@@ -26,8 +26,8 @@ const Hero = () => {
       </div>
 
       <div>
-        <section className="bg-black text-white px-6 py-16 md:px-10">
-          <div className="grid grid-cols-1 md:grid-cols-4">
+        <section className="bg-black text-white -mt-20 px-5 py-16 md:px-10">
+          <div className="grid grid-cols-1 gap-20 md:grid-cols-4">
             <div>
               <img
                 src={img7}

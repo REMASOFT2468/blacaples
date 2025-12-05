@@ -53,7 +53,7 @@ const Hero4 = () => {
           brand to be remembered, not just seen on the internet.
         </p>
         <div className=" mt-20 md:mt-40 -ml-35 md:ml-90  text-red-800">
-          <button className="h-8 w-60  bg-white">Whatsapp us now</button>
+          <button className="h-10 w-60 rounded-lg bg-white">Whatsapp us now</button>
         </div>
       </div>
     </div>

@@ -10,12 +10,11 @@ import img4 from "../assets/image/img4.png";
 const Header = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
-    AOS.refresh(); 
+    AOS.refresh();
   }, []);
 
   return (
     <div className="bg-black text-white font-sans min-h-screen">
-      
       <nav
         className="w-full flex items-center justify-between py-6 px-6 md:px-20"
         data-aos="fade-down"
@@ -37,7 +36,6 @@ const Header = () => {
         </ul>
       </nav>
 
-      
       <section className="w-full flex flex-col items-center text-center mt-10 px-4 md:px-0">
         <div
           className="relative w-full max-w-3xl h-[420px] md:h-[500px] flex justify-center items-center"
@@ -89,13 +87,13 @@ const Header = () => {
         data-aos="zoom-in"
         data-aos-delay="600"
       >
-        <button className="w-50 h-9 bg-white text-red-700">
+        <button className="w-55 h-10 bg-white text-red-700 rounded-lg">
           Whatsapp us now
         </button>
       </div>
 
       <div
-        className="flex text-xs gap-10 p-3 mt-4 md:justify-between md:p-10 md:mt-5"
+        className="flex text-xs gap-12 p-6 mt-15 md:justify-between md:p-10 md:mt-10"
         data-aos="fade-up"
         data-aos-delay="800"
       >
