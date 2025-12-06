@@ -1,35 +1,26 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Header from "./components/Header.jsx";
-import Hero6 from "./components/Hero6.jsx";
-import Hero from "./components/Hero.jsx";
-import Hero1 from "./components/Hero1.jsx";
-import Hero2 from "./components/Hero2.jsx";
-import Hero7 from "./components/Hero7.jsx";
-import Hero5 from "./components/Hero5.jsx";
-import Hero3 from "./components/Hero3.jsx";
-import Hero4 from "./components/Hero4.jsx";
-import Footer from "./components/Footer.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
-  const [count, setCount] = useState(0);
+// --- Pages (Create these files separately) ---
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Documentary from "./pages/Documentary";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
+const App = () => {
   return (
-    <>
+    <Router>
       <Header />
-      <Hero6 />
-      <Hero />
-      <Hero1 />
-      <Hero2 />
-      <Hero7 />
-      <Hero5 />
-      <Hero3 />
-      <Hero4 />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/documentary" element={<Documentary />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
-}
+};
 
 export default App;
