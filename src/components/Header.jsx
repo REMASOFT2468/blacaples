@@ -27,13 +27,13 @@ const Header = () => {
         className="w-full flex items-center justify-between py-6 px-6 md:px-20"
         data-aos="fade-down"
       >
-        {/* Logo */}
+       
         <div className="flex items-center gap-2">
           <img src={img2} alt="logo" className="w-8 h-8" />
           <h1 className="text-xl font-semibold">Blacaples</h1>
         </div>
 
-        {/* Desktop Nav */}
+       
         <ul className="hidden md:flex items-center gap-10 text-gray-300">
           {navLinks.map((link) => (
             <li key={link.name}>
@@ -51,7 +51,7 @@ const Header = () => {
           ))}
         </ul>
 
-        {/* Mobile Menu Button */}
+        
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden focus:outline-none"
@@ -64,7 +64,7 @@ const Header = () => {
         </button>
       </nav>
 
-      {/* Mobile Dropdown */}
+     
       {menuOpen && (
         <div
           className="md:hidden bg-black text-gray-300 flex flex-col gap-5 px-6 py-6 border-t border-gray-700"

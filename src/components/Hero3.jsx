@@ -14,22 +14,22 @@ const Hero3 = () => {
   }, []);
 
   const stories = [
-    { img: img14, date: "September, 2025", title: "Viral Content" },
-    { img: img15, date: "September, 2025", title: "Viral Content" },
-    { img: img16, date: "September, 2025", title: "Viral Content" },
-    { img: img13, date: "September, 2025", title: "Viral Content" },
+    { img: img14, date: "September, 2025", title: "Documentaries" },
+    { img: img15, date: "September, 2025", title: "Launch Commercials" },
+    { img: img16, date: "September, 2025", title: "Content creation" },
+    { img: img13, date: "September, 2025", title: "viral content" },
   ];
 
   return (
     <div className="px-6 md:px-16 mt-16 pb-12">
       <div className="max-w-4xl mx-auto mb-12 text-center" data-aos="fade-up">
         <h2 className="text-4xl md:text-6xl font-semibold tracking-tight mb-6">
-          Featured Stories
+          Our Passion
         </h2>
         <p className="text-gray-300 max-w-3xl mx-auto">
-          Our team focuses on crafting and engineering emotion-catching stories
-          and content that stays in the mind of your customers even if they
-          close eyes to sleep. We have done it for this brand.
+          our passion and focus is on crafting and engineering emotion catching
+          stories and contents that stays in the mind of your customers when
+          they close eyes to sleep.
         </p>
       </div>
 

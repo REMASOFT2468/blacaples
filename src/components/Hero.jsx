@@ -15,9 +15,10 @@ const Hero = () => {
           human-emotion centric stories.
         </h1>
         <p className="mt-10 text-xs md:w-90 md:ml-60">
-          our team focuses on crafting and engineering emotion catching stories
-          and contents that stays in the mind of your customers when they close
-          eyes to sleep.
+          We are a small, focused team obsessed with crafting stories that stay
+          with people. We invest deeply in research, creativity, and strategy
+          before we create anything.So your audience doesn’t just see your brand
+          — they remember it.
         </p>
       </div>
       <div className="flex justify-between p-10 text-red-800">
@@ -45,7 +46,7 @@ const Hero = () => {
                 className="w-full h-72  md:h-90 md:-mt-10 md:-ml-20 object-cover rounded-lg"
               />
               <p className="text-gray-400 mt-3 text-sm">September, 2025</p>
-              <h3 className="text-xl font-semibold">Viral content</h3>
+              <h3 className="text-xl font-semibold">Event storytelling</h3>
             </div>
 
             <div>
@@ -55,7 +56,7 @@ const Hero = () => {
                 className="w-full h-72 md:h-100 md:-mt-14 md:-ml-25 object-cover rounded-lg"
               />
               <p className="text-gray-400 mt-3 text-sm">September, 2025</p>
-              <h3 className="text-xl font-semibold">Viral content</h3>
+              <h3 className="text-xl font-semibold">Launch commercial</h3>
             </div>
 
             <div>
