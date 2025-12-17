@@ -10,7 +10,7 @@ import Footer from "../components/Footer.jsx";
 
 function Home() {
   return (
-    <>
+    <div className="p-15">
       <HeroMain />
       <Hero />
       <Hero1 />
@@ -18,8 +18,7 @@ function Home() {
       <Hero5 />
       <Hero3 />
       <Hero4 />
-      
-    </>
+    </div>
   );
 }
 
